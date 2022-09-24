@@ -1,0 +1,29 @@
+
+.lastH4{
+    color: pink;
+}
+
+.myp{
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+
+.bluebg{
+    background-color: blue;
+    color:black;
+}
+
+/* .firstline{
+    color: brown;
+} */
+
+.myownfirstline::first-line{
+    color: chartreuse;
+}
+
+.myownfirstline::first-letter{
+    color: purple;
+    font-size: 70px;
+}
+

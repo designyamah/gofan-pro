@@ -1,0 +1,281 @@
+@font-face {
+    font-family: integral-bold;
+    src: url(Integral-www.Dfonts.org/Webfont/IntegralCF-Bold.woff);
+}
+
+@font-face {
+    font-family: integral-demibold;
+    src: url(Integral-www.Dfonts.org/Webfont/IntegralCF-DemiBold.woff);
+}
+
+@font-face {
+    font-family: integral-regular;
+    src: url(Integral-www.Dfonts.org/Webfont/IntegralCF-Regular.woff);
+}
+
+@font-face {
+    font-family: joyride;
+    src: url(joyride/Joyride-Outline.otf);
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: integral-regular;
+}
+
+
+
+header{
+    overflow: hidden;
+    background-color: #00000073;
+    /* backface-visibility: hidden; */
+    backdrop-filter: blur(13px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1{
+    float: left;
+    color: white;
+}
+
+header nav{
+    float: right;
+    margin-top: 9px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 70px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+header a:hover{
+    opacity: 0.8;
+   transform: translate(3px,0px);
+}
+
+header a:last-child {
+    margin: 0;
+}
+
+
+.hero-section{
+    height: 95vh;
+    background-color: #0c0c0b;
+    text-align: center;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    color: white;
+    background-image: url(../img/FB_IMG_15478454791156222.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.hero-section h1{
+    font-family: integral-bold;
+    font-size: 80px;
+    /* -//// */
+    max-width: 920px;
+    /* ----/// */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.hero-section h1:first-child{
+    margin-bottom: 0px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.95px; 
+
+}
+
+.hero-section h1:first-child:hover{
+    margin-bottom: 0px;
+    -webkit-text-fill-color: white;
+    
+
+}
+
+
+
+.hero-section p{
+    font-size: 25px;
+}
+
+
+.services{
+    overflow: hidden;
+}
+
+
+.westday::before{
+    content: "God's Time";
+    background-color: #ffffff;
+    display: block;
+    /* transform: translateX(60px); */
+    /* transform: translateY(60px); */
+    transform: rotate(46deg);
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    /* right: -43px; */
+    left: 164px;
+    padding: 7px;
+}
+
+.westday{
+    width: 33.33%;
+    height: 400px;
+    background:linear-gradient(rgba(0, 3, 16, 0.81),rgba(0, 3, 16, 0.81)),url(../img/FB_IMG_15485331508571082.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.westday h2{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.westday p{
+    font-size: 25px;
+    color: white;
+    /* text-transform: capitalize; */
+}
+
+
+.sunday{
+    width: 33.33%;
+    height: 400px;
+    background:linear-gradient(rgba(1, 26, 21, 0.81),rgba(1, 26, 21, 0.81)),url(../img/FB_IMG_15478456426319001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 180px;
+    float: left;
+}
+
+.sunday h2{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.sunday p{
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.counseling::before{
+    content: 'Best Time';
+    background-color: #d5d5b1;
+    display: block;
+    /* transform: translateX(-150px); */
+    /* transform: translate(-150px,-50px); */
+    /* transform: translateX(60px); */
+    /* transform: translateY(60px); */
+    /* 
+    */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    transform: rotate(46deg);
+    top: 40px;
+    /* right: -43px; */
+    left: 164px;
+    padding: 7px;
+}
+
+.counseling{
+    width: 33.33%;
+    height: 400px;
+    background:linear-gradient(rgba(0, 11, 12, 0.81),rgba(0, 11, 12, 0.81)),url(../img/FB_IMG_15478456318991805.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.counseling h2{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.counseling p{
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.counseling a {
+    background-color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    color: black;
+    margin-top: 20px;
+    /* transition: background-color 0.8s, color 0.8s; */
+    transition: all 0.8s;
+
+}
+
+
+.counseling a:hover {
+    background-color: black;
+    color: white;
+    /* transition: all 2s; */
+
+}
+
+
+.moving,.move-container,.move-main{
+    display: flex;
+    gap: 30px;
+}
+
+.move-main p{
+    /* font-family: joyride; */
+    font-family: integral-bold;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.95px; 
+    font-size: 20px;
+}
+
+marquee{
+    padding: 13px 0;
+}
