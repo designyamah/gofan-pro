@@ -43,4 +43,8 @@
     header h1 {
         margin-bottom: 8px;
     }
+
+    header a {
+        font-size: 12px;
+    }
 }
