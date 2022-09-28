@@ -17,7 +17,8 @@
     }
 
     .hero-section {
-        min-height: 95vh;
+        padding-top: 200px;
+        height: 70vh;
         background-position-x: center;
 }
 
@@ -30,6 +31,16 @@
     .hero-section p {
         font-size: 20px;
     }
+    .westday,.sunday,.counseling{
+        width: 100%;
+    }
 
 
+}
+
+
+@media(max-width:375px){
+    header h1 {
+        margin-bottom: 8px;
+    }
 }
