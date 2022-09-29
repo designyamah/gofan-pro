@@ -235,7 +235,7 @@ header a:last-child {
     text-transform: capitalize;
 }
 
-.counseling a {
+.btn{
     background-color: white;
     padding: 20px 30px;
     text-decoration: none;
@@ -249,7 +249,7 @@ header a:last-child {
 }
 
 
-.counseling a:hover {
+.btn:hover{
     background-color: black;
     color: white;
     /* transition: all 2s; */
