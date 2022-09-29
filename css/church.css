@@ -126,7 +126,7 @@ header a:last-child {
 
 .westday::before{
     content: "God's Time";
-    background-color: #ffffff;
+    background-color: #efefe6;
     display: block;
     transform: rotate(46deg);
     position: absolute;
@@ -134,6 +134,9 @@ header a:last-child {
     top: 40px;
     left: 164px;
     padding: 7px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.95px;
 }
 
 .westday{
@@ -187,7 +190,7 @@ header a:last-child {
 
 .counseling::before{
     content: 'Best Time';
-    background-color: #d5d5b1;
+    background-color: #efefe6;
     display: block;
     position: absolute;
     width: 100%;
@@ -197,7 +200,7 @@ header a:last-child {
     left: 164px;
     padding: 7px;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(0, 0, 0);
     -webkit-text-stroke-width: 0.95px;
 }
 
@@ -235,7 +238,6 @@ header a:last-child {
     border-radius: 30px;
     color: black;
     margin-top: 20px;
-    /* transition: background-color 0.8s, color 0.8s; */
     transition: all 0.8s;
 
 }
