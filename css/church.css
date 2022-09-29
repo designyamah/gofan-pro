@@ -147,7 +147,6 @@ header a:last-child {
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 150px;
-    
     float: left;
     position: relative;
     overflow: hidden;
@@ -173,7 +172,7 @@ header a:last-child {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 150px;
     float: left;
 }
 
