@@ -128,13 +128,10 @@ header a:last-child {
     content: "God's Time";
     background-color: #ffffff;
     display: block;
-    /* transform: translateX(60px); */
-    /* transform: translateY(60px); */
     transform: rotate(46deg);
     position: absolute;
     width: 100%;
     top: 40px;
-    /* right: -43px; */
     left: 164px;
     padding: 7px;
 }
@@ -161,7 +158,6 @@ header a:last-child {
 .westday p{
     font-size: 25px;
     color: white;
-    /* text-transform: capitalize; */
 }
 
 
@@ -193,20 +189,16 @@ header a:last-child {
     content: 'Best Time';
     background-color: #d5d5b1;
     display: block;
-    /* transform: translateX(-150px); */
-    /* transform: translate(-150px,-50px); */
-    /* transform: translateX(60px); */
-    /* transform: translateY(60px); */
-    /* 
-    */
     position: absolute;
     width: 100%;
     top: 0;
     transform: rotate(46deg);
     top: 40px;
-    /* right: -43px; */
     left: 164px;
     padding: 7px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.95px;
 }
 
 .counseling{
