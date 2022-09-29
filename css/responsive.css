@@ -75,4 +75,15 @@
     .hero-section p {
         font-size: 18px;
     }
+
+    .westday::before {
+        top: 30px;
+        left: 114px;
+        padding: 5px;
+    }
+    .counseling::before {
+        top: 30px;
+        left: 114px;
+        padding: 5px;
+    }
 }
