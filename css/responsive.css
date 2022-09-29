@@ -53,3 +53,26 @@
         min-height: 70vh;
     }
 }
+
+@media(max-width:320px){
+    header nav {
+        gap: 11px;
+    }
+
+    header a {
+        font-size: 11px;
+    }
+
+    .hero-section {
+        min-height: 70vh;
+    }
+
+    .hero-section h1 {
+        font-size: 35px;
+        margin-bottom: 11px;
+    }
+
+    .hero-section p {
+        font-size: 18px;
+    }
+}
