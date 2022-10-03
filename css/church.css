@@ -69,13 +69,42 @@ header a:hover{
    transform: translate(3px,0px);
 }
 
-button.btn-open {
+button.btn-open{
     border: 0;
     background: transparent;
     color: white;
     font-family: inherit;
 }
 
+button.btn-close {
+    border: 0;
+    background: transparent;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-family: inherit;
+    color: white;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-links{
+    flex-direction: column;
+}
+
+.menu-links a{
+    font-size: 30px;
+}
 
 
 .hero-section{
