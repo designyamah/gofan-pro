@@ -1,8 +1,8 @@
 const menu = document.querySelector('.menu');
 function openMenu(){
-    menu.style.cssText =  'visibility: visible; opacity: 1;'
+    menu.classList.add('menu-show')
 }
 
 function closeMenu(){
-    menu.style.cssText = 'visibility: hidden; opacity: 0;'
+    menu.classList.remove('menu-show')
 }
