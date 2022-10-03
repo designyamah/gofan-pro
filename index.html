@@ -11,16 +11,16 @@
 <body>
     <header>
         <h1>GOFAN</h1>
-        <nav>
+        <nav class="main-links">
             <a href="#">HOME</a>
             <a href="#">ABOUT</a>
             <a href="#">SERVICES</a>
             <a href="#">CONNECT</a>
             <a href="#">SERMONS</a>
-            <button class="btn-open">Menu</button>
         </nav>
+        <button class="btn-open" onclick="openMenu()">Menu</button>
         <div class="menu"> 
-            <button class="btn-close">X</button>
+            <button class="btn-close" onclick="closeMenu()">X</button>
           <nav class="menu-links">
               <a href="shop.html">Shop</a>
               <a href="winter.html">Winter 2016</a>
@@ -119,5 +119,6 @@
         
     </section>
     
+    <script src="js/script.js"></script>
 </body>
 </html>
