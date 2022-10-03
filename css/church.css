@@ -53,12 +53,13 @@ header h1{
 }
 
 header nav{
+    display: flex;
+    gap: 70px;
 }
 
 header a{
     color: white;
     text-decoration: none;
-    margin-right: 70px;
     transition: all 0.3s;
     display: inline-block;
 }
@@ -68,9 +69,13 @@ header a:hover{
    transform: translate(3px,0px);
 }
 
-header a:last-child {
-    margin: 0;
+button.btn-open {
+    border: 0;
+    background: transparent;
+    color: white;
+    font-family: inherit;
 }
+
 
 
 .hero-section{
