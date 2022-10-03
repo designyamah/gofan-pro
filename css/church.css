@@ -92,6 +92,10 @@ button.btn-close {
     cursor: pointer;
 }
 
+button.btn-close:active{
+    transform: translate(3px,0px);
+ }
+
 .menu {
     position: fixed;
     width: 100%;
