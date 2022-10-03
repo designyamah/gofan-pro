@@ -92,6 +92,7 @@ button.btn-close {
 .menu {
     position: fixed;
     width: 100%;
+    text-align: center;
     top: 0;
     left: 0;
     height: 100vh;
@@ -114,7 +115,7 @@ button.btn-close {
 
 
 .hero-section{
-    height: 95vh;
+    min-height: 95vh;
     background-color: #0c0c0b;
     text-align: center;
     padding-top: 240px;
