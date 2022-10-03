@@ -62,7 +62,7 @@ header a{
 }
 
 header a:hover{
-    opacity: 0.8;
+   opacity: 0.8;
    transform: translate(3px,0px);
 }
 
@@ -76,6 +76,10 @@ button.btn-open{
     display: none;
 }
 
+button.btn-open:active{
+   transform: translate(3px,0px);
+}
+
 button.btn-close {
     border: 0;
     background: transparent;
@@ -86,7 +90,6 @@ button.btn-close {
     color: white;
     font-size: 20px;
     cursor: pointer;
-
 }
 
 .menu {
