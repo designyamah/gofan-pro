@@ -1,3 +1,26 @@
+@media(max-width:768px){
+    header{
+        align-items: center;
+    }
+
+    header nav {
+        gap: 50px;
+    }
+
+    .hero-section {
+        background-position-x: center;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+
+    .westday,.sunday,.counseling{
+        width: 100%;
+    }
+
+}
+
 @media(max-width:500px){
     header{
         align-items: center;
@@ -11,13 +34,9 @@
         display: block;
     }
 
-
     .hero-section {
-        padding-top: 200px;
-        min-height: 70vh;
         background-position-x: center;
-}
-
+    }
 
     .hero-section h1 {
         font-size: 40px;
@@ -26,9 +45,6 @@
 
     .hero-section p {
         font-size: 20px;
-    }
-    .westday,.sunday,.counseling{
-        width: 100%;
     }
 
 

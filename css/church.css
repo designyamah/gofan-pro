@@ -123,13 +123,18 @@ button.btn-close {
     min-height: 95vh;
     background-color: #0c0c0b;
     text-align: center;
-    padding-top: 240px;
-    padding-bottom: 240px;
+    /* padding-top: 240px;
+    padding-bottom: 240px; */
     color: white;
     background-image: url(../img/FB_IMG_15478454791156222.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .hero-section h1{
@@ -154,19 +159,14 @@ button.btn-close {
 .hero-section h1:first-child:hover{
     margin-bottom: 0px;
     -webkit-text-fill-color: white;
-    
-
 }
-
-
 
 .hero-section p{
     font-size: 25px;
 }
 
-
 .services{
-    overflow: hidden;
+    display: flex;
 }
 
 
@@ -192,10 +192,12 @@ button.btn-close {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 150px;
-    float: left;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .westday h2{
@@ -217,8 +219,10 @@ button.btn-close {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 150px;
-    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .sunday h2{
@@ -257,10 +261,12 @@ button.btn-close {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 150px;
-    float: left;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
